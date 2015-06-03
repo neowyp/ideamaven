@@ -1,4 +1,4 @@
-package com.neo.ce;
+package com.neo.ce.user;
 
 /**
  * Hello world!
