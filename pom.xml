@@ -12,6 +12,7 @@
 
     <modules>
         <module>im-user</module>
+        <module>im-account</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
