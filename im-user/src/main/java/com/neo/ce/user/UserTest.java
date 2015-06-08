@@ -1,5 +1,7 @@
 package com.neo.ce.user;
 
+import com.neo.ce.user.utils.Constant;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -10,8 +12,10 @@ import java.util.Properties;
  * Hello world!
  */
 public class UserTest {
+
     public static void main(String[] args) {
         try {
+            String param = Constant.USER_NAME;
             System.out.println("Hello World!");
             Properties prop = new Properties();
             InputStream fis = UserTest.class.getResourceAsStream("/config.properties");

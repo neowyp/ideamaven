@@ -11,9 +11,11 @@ import java.util.Map;
  * Created by neowyp on 2015/6/5.
  */
 public class UGuava {
+
     public static void main(String[] args) {
 
         try {
+            String param  = Constant.USER_NAME;
             //判断字符串是否为空
             String tmp = null;
             boolean isNullorEmpty = Strings.isNullOrEmpty(tmp);
